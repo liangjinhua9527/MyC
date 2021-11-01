@@ -2,7 +2,7 @@
 
 int main()
 {
-    test();
+    maxValue();
     system("pause");
     return 0;
 }
