@@ -2,7 +2,7 @@
 
 int main()
 {
-    maxValue();
+    passwordTran();
     system("pause");
     return 0;
 }
