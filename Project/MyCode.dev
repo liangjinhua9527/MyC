@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=9
+UnitCount=11
 
 [VersionInfo]
 Major=1
@@ -131,6 +131,26 @@ BuildCmd=
 
 [Unit9]
 FileName=..\cfile\m211102.c
+CompileCpp=0
+Folder=Cfile
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit10]
+FileName=..\hfile\m211117.h
+CompileCpp=0
+Folder=Hfile
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit11]
+FileName=..\cfile\m21117.c
 CompileCpp=0
 Folder=Cfile
 Compile=1

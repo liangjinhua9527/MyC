@@ -1,2 +1,7 @@
 date : 2111101
-note : 求出三个整数的最大值 
+note : 求出三个整数的最大值
+
+date : 2111117
+note : 华氏度转摄氏度 
+question:注意float,double的输出符号 
+

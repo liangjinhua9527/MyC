@@ -1,8 +1,8 @@
 #include <main.h>
 
-int main()
+int main(void)
 {
-    passwordTran();
+    tempConvert();
     system("pause");
     return 0;
 }
