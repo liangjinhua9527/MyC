@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void maxValue(void);
+ void maxValue(void);
 
-#endif
+

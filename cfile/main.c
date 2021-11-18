@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    tempConvert();
+    maxValues();
     system("pause");
     return 0;
 }
