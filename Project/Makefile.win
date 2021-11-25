@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = ../cfile/m211030.o ../cfile/main.o m211101.o ../cfile/m211102.o ../cfile/m211117.o ../cfile/m211118.o
-LINKOBJ  = ../cfile/m211030.o ../cfile/main.o m211101.o ../cfile/m211102.o ../cfile/m211117.o ../cfile/m211118.o
+OBJ      = ../cfile/m211030.o ../cfile/main.o ../cfile/m211102.o ../cfile/m211117.o ../cfile/m211118.o ../cfile/m211125.o ../cfile/m211101.o
+LINKOBJ  = ../cfile/m211030.o ../cfile/main.o ../cfile/m211102.o ../cfile/m211117.o ../cfile/m211118.o ../cfile/m211125.o ../cfile/m211101.o
 LIBS     = -L"E:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"E:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Code/hfile" -I"D:/Code/cfile"
 CXXINCS  = -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"E:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -30,9 +30,6 @@ $(BIN): $(OBJ)
 ../cfile/main.o: ../cfile/main.c
 	$(CC) -c ../cfile/main.c -o ../cfile/main.o $(CFLAGS)
 
-m211101.o: m211101.c
-	$(CC) -c m211101.c -o m211101.o $(CFLAGS)
-
 ../cfile/m211102.o: ../cfile/m211102.c
 	$(CC) -c ../cfile/m211102.c -o ../cfile/m211102.o $(CFLAGS)
 
@@ -41,3 +38,9 @@ m211101.o: m211101.c
 
 ../cfile/m211118.o: ../cfile/m211118.c
 	$(CC) -c ../cfile/m211118.c -o ../cfile/m211118.o $(CFLAGS)
+
+../cfile/m211125.o: ../cfile/m211125.c
+	$(CC) -c ../cfile/m211125.c -o ../cfile/m211125.o $(CFLAGS)
+
+../cfile/m211101.o: ../cfile/m211101.c
+	$(CC) -c ../cfile/m211101.c -o ../cfile/m211101.o $(CFLAGS)

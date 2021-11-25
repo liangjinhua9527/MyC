@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    maxValues();
+    conditionValues();
     system("pause");
     return 0;
 }
