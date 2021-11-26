@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    conditionValues();
+    judgeGrade();
     system("pause");
     return 0;
 }

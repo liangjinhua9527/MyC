@@ -8,3 +8,11 @@ question:注意float,double的输出符号
 date : 2111118
 note : 求出三个整数的最大值
 question: 三目运算符 ? :
+
+date : 2111125
+note : 根据条件执行
+question: if
+
+date : 2111126
+note : switch规范问题 
+question: switch(表达式) case (常量) : 
